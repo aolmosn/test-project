@@ -1,12 +1,18 @@
 {
-  "name": "test-project",
+  "name": "aolmosn",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/aolmosn/test-project.git",
+  "bugs": "https://github.com/aolmosn/test-project/issues",
+  "author": "Andres Olmos <andres.olmos.n@gmail.com>",
   "license": "MIT",
+  "keywords": ["test", "package"],
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "prepublish": "tsc --build"
   },
+  
   "dependencies": {
     "chalk": "^4.1.0",
     "typescript": "^4.1.3"
