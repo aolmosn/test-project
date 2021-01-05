@@ -1,6 +1,6 @@
 {
   "name": "aolmosn",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/aolmosn/test-project.git",
@@ -12,7 +12,8 @@
     "package"
   ],
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "prepublish": "tsc --build"
   },
   "dependencies": {
     "chalk": "^4.1.0",
